@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name — Founder & Software Engineer</title>
+    <meta name="description" content="Founder building AI-powered SaaS products. Track record of shipping products that scale.">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Your Name — Founder & Software Engineer">
+    <meta property="og:description" content="Founder building AI-powered SaaS products.">
+    <meta property="og:image" content="/og-image.jpg">
+
+    <!-- Tailwind CSS CDN (for demo - use build process in production) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563EB',
+                        muted: '#6B7280',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-xl font-semibold">YN</a>
+            <div class="flex gap-8 text-sm">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition">About</a>
+                <a href="#companies" class="text-gray-600 hover:text-gray-900 transition">Companies</a>
+                <a href="#projects" class="text-gray-600 hover:text-gray-900 transition">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-32 pb-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <!-- Profile Image -->
+            <div class="mb-8">
+                <img src="/profile.jpg" alt="Your Name" class="w-32 h-32 rounded-full mx-auto object-cover border-2 border-gray-200">
+            </div>
+
+            <!-- Title -->
+            <h1 class="text-5xl md:text-6xl font-semibold mb-4 tracking-tight">Your Name</h1>
+            <p class="text-2xl text-gray-600 mb-6">Founder & Software Engineer</p>
+
+            <!-- Tagline -->
+            <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Building AI-powered SaaS products that scale.<br>
+                Currently: <span class="font-medium">Company Name</span> | Previously: <span class="font-medium">Notable Role</span>
+            </p>
+
+            <!-- Meta Info -->
+            <div class="flex justify-center items-center gap-4 text-sm text-gray-500 mb-10">
+                <span>📍 San Francisco, CA</span>
+                <span>•</span>
+                <span>Open to partnerships</span>
+            </div>
+
+            <!-- Social Links -->
+            <div class="flex justify-center gap-4">
+                <a href="mailto:you@example.com" class="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition">
+                    Email
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="px-6 py-3 border border-gray-300 rounded-lg hover:border-gray-400 transition">
+                    LinkedIn
+                </a>
+                <a href="https://github.com" target="_blank" class="px-6 py-3 border border-gray-300 rounded-lg hover:border-gray-400 transition">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-8 text-center">About</h2>
+
+            <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
+                <p>
+                    I build software companies that solve real problems.
+                </p>
+                <p>
+                    Over the past 7 years, I've founded 3 ventures across AI, SaaS, and infrastructure—scaling products from zero to thousands of users and measurable revenue. My work focuses on automation and developer tools, with a track record of shipping fast and iterating based on real customer feedback.
+                </p>
+                <p>
+                    Before founding my current ventures, I led engineering teams at growth-stage startups and built products used by Fortune 500 companies. I've worked across North America, Europe, and Asia, building global teams and products that operate at scale.
+                </p>
+                <p>
+                    I hold a B.S. in Computer Science from [University] and have been recognized by [Accelerator/Award]. I'm driven by efficiency and impact, not hype.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies & Ventures -->
+    <section id="companies" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Companies & Ventures</h2>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- Company Card 1 -->
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center text-white font-bold">
+                            C1
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Company One</h3>
+                            <span class="text-sm text-green-600 font-medium">Active</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        AI-powered automation platform for enterprise workflows.
+                    </p>
+                    <div class="space-y-2 text-sm text-gray-500">
+                        <p>Founded: 2024</p>
+                        <p>Users: 5,000+</p>
+                        <p class="font-mono text-xs">Next.js • Python • PostgreSQL</p>
+                    </div>
+                    <a href="#" class="inline-block mt-4 text-primary hover:underline text-sm">View product →</a>
+                </div>
+
+                <!-- Company Card 2 -->
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white font-bold">
+                            C2
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Company Two</h3>
+                            <span class="text-sm text-green-600 font-medium">Active</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Developer tools for faster API integration testing.
+                    </p>
+                    <div class="space-y-2 text-sm text-gray-500">
+                        <p>Founded: 2023</p>
+                        <p>Users: 12,000+</p>
+                        <p class="font-mono text-xs">TypeScript • React • Node.js</p>
+                    </div>
+                    <a href="#" class="inline-block mt-4 text-primary hover:underline text-sm">View product →</a>
+                </div>
+
+                <!-- Company Card 3 -->
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition opacity-75">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-gray-400 rounded-lg flex items-center justify-center text-white font-bold">
+                            C3
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Company Three</h3>
+                            <span class="text-sm text-gray-500 font-medium">Archived</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Mobile analytics platform (acquired 2022).
+                    </p>
+                    <div class="space-y-2 text-sm text-gray-500">
+                        <p>Founded: 2021</p>
+                        <p>Exit: 2022</p>
+                        <p class="font-mono text-xs">React Native • Firebase</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Featured Projects</h2>
+
+            <div class="space-y-12">
+
+                <!-- Project 1 -->
+                <div class="border border-gray-200 rounded-lg p-8 bg-white">
+                    <h3 class="text-2xl font-semibold mb-3">AI Document Parser</h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">Python</span>
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">OpenAI API</span>
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">PostgreSQL</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Problem:</strong> Enterprise clients needed to extract structured data from unstructured legal documents at scale.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Solution:</strong> Built an AI-powered extraction pipeline using GPT-4 with custom prompt engineering and validation layers, processing 10,000+ documents daily with 98% accuracy.
+                    </p>
+                    <p class="text-gray-700 font-medium mb-4">
+                        <strong>Impact:</strong> Reduced document processing time from 4 hours to 3 minutes per document. Deployed to 15 enterprise clients.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-primary hover:underline text-sm">View demo →</a>
+                        <a href="#" class="text-primary hover:underline text-sm">GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="border border-gray-200 rounded-lg p-8 bg-white">
+                    <h3 class="text-2xl font-semibold mb-3">Real-time Collaboration Engine</h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">TypeScript</span>
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">WebSockets</span>
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">Redis</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Problem:</strong> Existing collaboration tools had latency issues for distributed teams.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Solution:</strong> Developed a low-latency sync engine using CRDTs and optimized WebSocket architecture, supporting 1,000+ concurrent users per room.
+                    </p>
+                    <p class="text-gray-700 font-medium mb-4">
+                        <strong>Impact:</strong> Used by 3,000+ teams. Open-sourced with 2,400 GitHub stars.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-primary hover:underline text-sm">Live demo →</a>
+                        <a href="#" class="text-primary hover:underline text-sm">GitHub →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Expertise -->
+    <section id="skills" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Skills & Expertise</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-gray-700">Languages & Frameworks</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        TypeScript, Python, React, Next.js, Node.js, FastAPI, TailwindCSS
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-gray-700">Infrastructure & DevOps</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        AWS, Docker, Kubernetes, PostgreSQL, Redis, CI/CD, Terraform
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-gray-700">AI & Machine Learning</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        OpenAI API, LangChain, Vector DBs, Fine-tuning, RAG, Prompt Engineering
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-gray-700">Business & Product</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        SaaS monetization, Growth loops, B2B sales, Team leadership, Fundraising
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Achievements & Recognition</h2>
+
+            <div class="space-y-4 text-gray-700">
+                <div class="flex items-start gap-3">
+                    <span class="text-primary mt-1">✓</span>
+                    <p>Founded 3 venture-backed companies with combined user base of 20,000+</p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-primary mt-1">✓</span>
+                    <p>Y Combinator S23 Alumni (Company One)</p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-primary mt-1">✓</span>
+                    <p>Featured in TechCrunch, Product Hunt (Product of the Day)</p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-primary mt-1">✓</span>
+                    <p>Speaker at AI Engineering Summit 2024, React Conf 2023</p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-primary mt-1">✓</span>
+                    <p>Open source contributor: 2,400 GitHub stars across projects</p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-primary mt-1">✓</span>
+                    <p>AWS Certified Solutions Architect, Security Clearance: [Level if applicable]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Education</h2>
+
+            <div class="space-y-6">
+
+                <div class="border-l-2 border-gray-300 pl-6">
+                    <h3 class="text-xl font-semibold mb-1">Bachelor of Science in Computer Science</h3>
+                    <p class="text-gray-600 mb-2">Stanford University • 2015 - 2019</p>
+                    <p class="text-gray-600">Focus: Artificial Intelligence, Distributed Systems</p>
+                </div>
+
+                <div class="border-l-2 border-gray-300 pl-6">
+                    <h3 class="text-xl font-semibold mb-1">Executive Program in Entrepreneurship</h3>
+                    <p class="text-gray-600 mb-2">MIT Sloan School of Management • 2022</p>
+                </div>
+
+                <div class="border-l-2 border-gray-300 pl-6">
+                    <h3 class="text-xl font-semibold mb-1">Certifications</h3>
+                    <p class="text-gray-600">AWS Solutions Architect (Professional), Google Cloud Engineer</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Testimonials</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <!-- Testimonial 1 -->
+                <div class="border border-gray-200 rounded-lg p-6 bg-white">
+                    <p class="text-gray-700 mb-4 leading-relaxed italic">
+                        "[Your Name] is one of the most technically capable founders I've worked with. Their ability to ship production-grade software at speed is rare."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">John Doe</p>
+                            <p class="text-sm text-gray-500">Partner at Sequoia Capital</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="border border-gray-200 rounded-lg p-6 bg-white">
+                    <p class="text-gray-700 mb-4 leading-relaxed italic">
+                        "Working with [Your Name] transformed how our engineering team operates. Their systems thinking and execution are world-class."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">Jane Smith</p>
+                            <p class="text-sm text-gray-500">CTO at Stripe</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="border border-gray-200 rounded-lg p-6 bg-white">
+                    <p class="text-gray-700 mb-4 leading-relaxed italic">
+                        "We integrated their tool and saw immediate value. The product quality and support exceeded every other vendor we evaluated."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">Alex Johnson</p>
+                            <p class="text-sm text-gray-500">VP Engineering at Airbnb</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="border border-gray-200 rounded-lg p-6 bg-white">
+                    <p class="text-gray-700 mb-4 leading-relaxed italic">
+                        "A founder who actually ships. No fluff, just consistent execution and results."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">Sarah Lee</p>
+                            <p class="text-sm text-gray-500">Co-founder at YC-backed startup</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-6">Let's build something.</h2>
+            <p class="text-gray-600 mb-10 text-lg">
+                I'm open to strategic partnerships, advisory roles, and investment opportunities.
+            </p>
+
+            <!-- Contact Methods -->
+            <div class="space-y-4 mb-10">
+                <div>
+                    <p class="text-sm text-gray-500 mb-1">Email</p>
+                    <a href="mailto:you@example.com" class="text-lg font-medium text-primary hover:underline">you@example.com</a>
+                </div>
+                <div class="flex justify-center gap-6 text-sm">
+                    <a href="https://linkedin.com" target="_blank" class="text-gray-600 hover:text-gray-900">LinkedIn</a>
+                    <a href="https://github.com" target="_blank" class="text-gray-600 hover:text-gray-900">GitHub</a>
+                    <a href="https://twitter.com" target="_blank" class="text-gray-600 hover:text-gray-900">Twitter</a>
+                </div>
+            </div>
+
+            <!-- Optional Contact Form -->
+            <div class="max-w-md mx-auto">
+                <form class="space-y-4 text-left">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Name</label>
+                        <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Email</label>
+                        <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Message</label>
+                        <textarea rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition font-medium">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-gray-200">
+        <div class="max-w-6xl mx-auto text-center text-sm text-gray-500">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="mt-4 flex justify-center gap-6">
+                <a href="/privacy" class="hover:text-gray-900">Privacy</a>
+                <a href="/terms" class="hover:text-gray-900">Terms</a>
+                <a href="/documents/resume.pdf" class="hover:text-gray-900">Resume (PDF)</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
